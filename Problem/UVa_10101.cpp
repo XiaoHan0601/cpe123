@@ -1,4 +1,5 @@
 #include <iostream>
+#include <iomanip>
 using namespace std;
 
 void bangla(long long x) {
@@ -31,7 +32,7 @@ int main() {
 	long long n;
 	int number = 1;
 	while (cin >> n) {
-		cout << "   " << number << ".";
+		cout << setw(4) << number << ".";
 		if (n == 0) {
 			cout << " 0" << endl;
 		}
