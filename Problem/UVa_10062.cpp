@@ -20,7 +20,7 @@ int main() {
 	string temp;
 	while (getline(cin, temp)) {
 		if (first == true) {
-			first == false;
+			first = false;
 		}
 		else {
 			cout << endl;
